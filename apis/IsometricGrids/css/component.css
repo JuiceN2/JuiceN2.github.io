@@ -254,15 +254,15 @@ body {
 }
 
 .isolayer--deco4 .grid__link .layer:first-child:not(img) {
-	background: #ac5cf5;
+	background: #24009B;
 }
 
 .isolayer--deco4 .grid__link .layer:nth-child(2):not(img) {
-	background: #5db4eb;
+	background: #EEF0F2;
 }
 
 .isolayer--deco4 .grid__link .layer:nth-child(3):not(img) {
-	background: #5debb4;
+	background: #EEC643;
 }
 
 .isolayer--deco4 .grid__link .layer {
