@@ -115,7 +115,7 @@ and open the template in the editor.
 								<div class="login__bar"></div>
 							</div>
 							<div class="col-md-12" align="center">
-								<button type="button" onclick="sendEmail();">YES!</button>
+								<button type="button" onclick="sendEmail();">YES!!!</button>
 							</div>
 						</main>
 					</form>
