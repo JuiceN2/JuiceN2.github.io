@@ -139,6 +139,10 @@ and open the template in the editor.
 		
 		<script>
 			var MenuText = "Enough about me... press [M] to open menu!";
+			if($(window).width() < 786){
+				MenuText = "Enough about me... scroll down to see my work!";
+			} 
+			
 			var typed = new Typed('.typedElement', {
 				strings: ["\
 					C:\\ cd /about-me\n\
