@@ -260,6 +260,14 @@ a {
 	.personalInfoText{
 		min-height: 50vh;
 	} 
+	
+	.innerInfo{
+		position: relative;
+		top: 0;
+		transform: translateY(0%);
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+	}
 }
 
 
