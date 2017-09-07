@@ -256,6 +256,12 @@ a {
 		max-width: 100%;
 		zoom : 0.5;
 	} 
+	
+	.personalInfoText{
+		background-color: #EEF0F2;
+		min-height: 50vh;
+		position: relative;
+	}
 }
 
 
