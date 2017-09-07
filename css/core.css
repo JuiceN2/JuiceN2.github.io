@@ -246,6 +246,16 @@ a {
 	.dosText{
 		padding: 15px;
 	}
+	
+	.personalInfoPic{
+		min-height: 50vh;
+	}
+	
+	.image-circle{
+		max-height: 100%;
+		max-width: 100%;
+		zoom : 0.5;
+	}
 }
 
 
