@@ -1,0 +1,384 @@
+
+/*
+xYellow - #EEC643
+xBlue - #24009B
+xBlack - #141414
+xWhite - #EEF0F2
+xDarkBlue - #011638
+*/
+
+  /**********************/
+ /******* General ******/
+/**********************/
+
+h2{
+	line-height: 1!important;
+	margin: 0;
+}
+
+
+body {
+
+    font-size: 12px;
+    font-family: 'Inconsolata:400', monospace;
+    color: #000;
+	font-weight: normal!important;
+}
+
+
+
+a {
+	text-decoration: none !important;
+}
+
+.noPadding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.noPaddingAlways{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.noPaddingLeft{
+    padding-left: 0px;
+}
+
+.noPaddingRight{
+    padding-right: 0px;
+}
+
+
+.noPaddingLeftAlways{
+    padding-left: 0px;
+}
+
+.noPaddingRightAlways{
+    padding-right: 0px;
+}
+
+
+.rowFlex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.colFlex{
+    flex: 1 auto;
+}
+
+.dosSection{
+	height: 100vh;
+}
+
+.dosWrapper{
+	background-color: #24009b;
+	min-height: 80vh;
+	margin-top: 10vh;
+	padding: 10px;
+	overflow: scroll;
+	position: relative;
+}
+
+.defaultColor{
+	color: #a8a8a8;
+}
+
+.dosInner{
+	padding: 20px;
+	border: 2px solid #a8a8a8;
+	height: 100%;
+	min-height: 80vh;
+}
+
+.dosText{
+	font-size: 16px;
+	font-weight: 400;
+	color: #a8a8a8;
+}
+
+.dosCaption{
+	position: absolute;
+	top: 0;
+	left: calc(50% - 40px);
+	background-color: #a8a8a8;
+	color: #24009b;
+	font-weight: 600; 
+	font-size: 16px;
+	margin-top: -12px;
+	padding: 2px 5px;
+}
+
+.personalInfo{
+	min-height: 100vh;
+}
+
+.work{
+	min-height: 100vh;
+}
+
+.contact{
+	min-height: 100vh;
+	background-color: #EEF0F2;
+}
+
+.workBackground{
+	background-color: #141414;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+.workTitle{
+	color: #EEF0F2;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.personalInfoPic{
+	background-color: #011638;
+	min-height: 100vh;
+	position: relative;
+}
+
+.innerInfo{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.personalInfoText{
+	background-color: #EEF0F2;
+	min-height: 100vh;
+	position: relative;
+}
+
+.image-circle{
+	border-radius: 50%;
+}
+
+.meTitle{
+	color: #EEF0F2;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.meText{
+	color: #011638;
+	font-size: 16px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.sectionTitle{
+	color: #141414;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+
+
+  /**********************/
+ /***** Responsive *****/
+/**********************/
+
+@media screen and (max-width:  967px) {
+    .noPadding{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .noPaddingLeft{
+        padding-left: 15px;
+    }
+
+    .noPaddingRight{
+        padding-right: 15px;
+    }
+    
+    
+    .noPaddingAlways{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+
+    .noPaddingLeftAlways{
+        padding-left: 0px;
+    }
+
+    .noPaddingRightAlways{
+        padding-right: 0px;
+    }
+    
+    
+    .noPaddingMobile{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .noPaddingMobileLeft{
+        padding-left: 0px;
+    }
+    
+    .noPaddingMobileRight{
+        padding-right: 0px;
+    }
+        
+    .rowFlex{
+        display: inline;
+    }
+
+    .colFlex{
+        flex: 0;
+    }
+	
+	
+	.mobileCenter{
+		text-align: center!important;
+	}
+}
+
+
+/* INPUTS */
+.login__form {
+    background: inherit;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px
+}
+.login__form .login__header {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 60px
+}
+.login__form .login__header .login__title {
+    font-size: 24px;
+    font-weight: 400
+}
+.login__form .login__main {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+.login__form .login__main .login__group {
+    position: relative
+}
+.login__form .login__main .login__group .login__input {
+    margin-top: 30px;
+    padding: 10px 10px 10px 5px;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    font-size: 16px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #d0dce7;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	
+	font-size: 14px;
+	font-weight: 600;
+	text-align: left;
+	color: #141414;
+	
+	background-color: inherit;
+}
+.login__form .login__main .login__group .login__input:focus {
+    outline: none
+}
+.login__form .login__main .login__group .login__input:focus ~ label,
+.login__form .login__main .login__group .login__input:valid ~ label {
+    top: -20px;
+    font-size: 12px;
+	font-weight: 600;
+	text-align: left;
+	color: #9b9b9b;
+}
+.login__form .login__main .login__group .login__label {
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    -webkit-transition: .2s ease all;
+    transition: .2s ease all
+}
+.login__form .login__main .login__terms {
+    font-size: 14px;
+    color: #a8b8c4;
+    margin: 40px auto;
+    line-height: 19px;
+}
+.login__form .login__main .login__terms a {
+    text-decoration: none;
+    color: #24009B
+}
+.login__form .login__button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    background: #24009B;
+    border: none;
+    border-radius: 5px;
+    color: inherit;
+    height: 45px;
+    font-size: 14px;
+    bottom: 0;
+    position: absolute
+}
+
+.login__button:hover {
+  cursor: pointer;
+}
+
+.login__bar {
+    position: relative;
+    display: block
+}
+.login__bar:before,
+.login__bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #18214b;
+    transition: .2s #141414 all;
+    -moz-transition: .2s ease all;
+    -webkit-transition: .2s ease all
+}
+.login__bar:before {
+    left: 50%
+}
+.login__bar:after {
+    right: 50%
+}
+input:focus ~ .login__bar:before,
+input:focus ~ .login__bar:after {
+    width: 50%
+}
+@media (min-width: 620px) {
+    
+    .login__form {
+        height: auto;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .login__title {
+        position: relative
+    }
+    .login__footer {
+        text-align: center
+    }
+    .login__footer .login__button {
+        bottom: initial;
+        position: initial;
+        width: 320px
+    }
+}
