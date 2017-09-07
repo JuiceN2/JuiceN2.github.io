@@ -1,3 +1,3 @@
 function sendEmail(){
-	console.log("Yes!");
+	//console.log("Triggered!");
 }
