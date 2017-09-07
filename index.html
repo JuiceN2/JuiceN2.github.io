@@ -138,6 +138,7 @@ and open the template in the editor.
 		</div>
 		
 		<script>
+			var MenuText = "Enough about me... press [M] to open menu!";
 			var typed = new Typed('.typedElement', {
 				strings: ["\
 					C:\\ cd /about-me\n\
@@ -152,7 +153,7 @@ and open the template in the editor.
 					- MySQL<br>\n\
 					- ...<br>\n\
 					<br>\n\
-					Enough about me... press [M] to open menu!\n\
+					" + MenuText + "\n\
 				"],
 				typeSpeed: 20
 			});
