@@ -242,6 +242,10 @@ a {
 	.mobileCenter{
 		text-align: center!important;
 	}
+	
+	.dosText{
+		padding: 15px;
+	}
 }
 
 
