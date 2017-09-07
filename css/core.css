@@ -270,8 +270,8 @@ a {
 	}
 	
 	.meText{
-		margin-top: 5vh;
-		margin-bottom: 5vh;  
+		padding-top: 5vh;
+		padding-bottom: 5vh;  
 	}
 }
 
