@@ -101,7 +101,7 @@ a {
 .dosCaption{
 	position: absolute;
 	top: 0;
-	left: calc(50% - 40px);
+	left: calc(50% - 43px);
 	background-color: #a8a8a8;
 	color: #24009b;
 	font-weight: 600; 
