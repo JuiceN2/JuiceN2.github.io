@@ -138,6 +138,9 @@ and open the template in the editor.
 		</div>
 		
 		<script>
+			
+			var MenuOpened = false;
+			
 			var MenuText = "Enough about me... press [M] to open menu!";
 			if($(window).width() < 786){
 				MenuText = "Enough about me... scroll down to see my work!";
@@ -169,26 +172,29 @@ and open the template in the editor.
 			
 			
 			$(document).on("keypress", function (e) {
-				if(e.which == 109 || e.which == 77){
+				if((e.which == 109 || e.which == 77) && !MenuOpened){
 					
 					/*$('html, body').animate({
 						scrollTop: $(".typedMenu").offset().top
 					}, 100);*/
 					
 					var typedMenu = new Typed('.typedMenu', {
-					strings: ["\
-						<br>C:\\ cd /root\n\
-						<br>\n\
-						C:\\ print menu.info\n\
-						<br><br>######## MENU.INFO #######<br>\n\
-						Available options:<br>\n\
-						- Personal info [P]<br>\n\
-						- Work [W]<br>\n\
-						- Contact [C]<br>\n\
-						Choose an option!\n\
-					"],
-					typeSpeed: 10,
-				});
+						strings: ["\
+							<br>C:\\ cd /root\n\
+							<br>\n\
+							C:\\ print menu.info\n\
+							<br><br>######## MENU.INFO #######<br>\n\
+							Available options:<br>\n\
+							- Personal info [P]<br>\n\
+							- Work [W]<br>\n\
+							- Contact [C]<br>\n\
+							Choose an option!\n\
+						"],
+						typeSpeed: 10
+					});
+					
+					MenuOpened = true;
+					
 				} else if(e.which == 112 || e.which == 80){
 					$('html, body').animate({
 						scrollTop: $("#PersonalInfo").offset().top
